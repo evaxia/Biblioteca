@@ -31,13 +31,13 @@ public class Library {
 
     public String checkBookStatus(StockedBook book) {
         if (searchBook(book) < 0) {
-            return "Sorry we don't have that book yet.";
+            return Message.parseMessage("noBookFound").getMessage();
 
         }
         if (book.getCheckedStatus() == true) {
-            return "Sorry, this book has already been reserved.";
+            return Message.parseMessage("alreadyReserved").getMessage();
         }
-        return "Thank You! Enjoy the book";
+        return Message.parseMessage("successReservation").getMessage();
     }
 
     public void setBookReserved(StockedBook stockedBook) {

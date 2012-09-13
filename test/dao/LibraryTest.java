@@ -58,7 +58,7 @@ public class LibraryTest {
 
         String status = library.checkBookStatus(stockedBook);
 
-        assertThat(status, is("Thank You! Enjoy the book"));
+        assertThat(status, is("Thank You! Enjoy the book."));
     }
 
     @Test
