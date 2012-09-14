@@ -1,4 +1,5 @@
 import service.FileParser;
+import service.LibraryService;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -15,9 +16,10 @@ public class Biblioteca {
         String input = null;
         InputStreamReader inputStreamReader = new InputStreamReader(System.in);
         BufferedReader bufferedReader = new BufferedReader(inputStreamReader);
-        while((input = bufferedReader.readLine()) != "exit") {
-            //TODO an implementation of command template
-        }
+        LibraryService libraryService = new LibraryService();
 
+        while(!(input = bufferedReader.readLine()).equals("exit")) {
+            libraryService.parseCommand(Integer.parseInt(input));
+        }
     }
 }

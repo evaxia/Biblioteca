@@ -10,8 +10,8 @@ public class Library {
         collections = new ArrayList<StockedBook>();
     }
 
-    public String showAllCollectionBooks() {
-        return "All Books Infomation:\n------------------------------\nbook  1 edition  author  publisher";
+    public void showAllCollectionBooks() {
+        System.out.println("All Books Infomation:\n------------------------------\nbook  1 edition  author  publisher");
     }
 
     public void addBook(StockedBook stockedBook, User user) {
