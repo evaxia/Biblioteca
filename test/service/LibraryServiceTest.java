@@ -8,10 +8,5 @@ public class LibraryServiceTest {
         LibraryService libraryService = new LibraryService();
 
         libraryService.parseCommand(1);
-<<<<<<< HEAD
-
-
-=======
->>>>>>> finish first level select
     }
 }

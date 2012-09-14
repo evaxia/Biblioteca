@@ -16,10 +16,6 @@ public class LibraryService {
                 break;
             case 2:
                 System.out.println("TO BE ADDED");
-<<<<<<< HEAD
-=======
-
->>>>>>> finish first level select
                 break;
             case 3:
                 System.out.println("TO BE ADDED");
