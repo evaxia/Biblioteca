@@ -1,0 +1,50 @@
+Bibloteca For TWU homework
+====================================================================================================
+Half finished
+
+=====================================================================================================
+you can download the whole repo, enetr the root directory, then run the commadn below to run apps:
+
+java -cp out/production/Biblioteca/ Biblioteca   (you can just copy that and run it in the root directory)
+
+======================================================================================================
+
+right now, you can only input several command by the output instruction.
+
+That homework is still working in progress.
+
+
+
+
+
+EXAMPLES FOR ALL OUTPUT BY NOW(2012-9-17 19:00)
+-------------------------------------------------------------
+user:Biblioteca$ java -cp out/production/Biblioteca/ Biblioteca
+#####################################################################################
+#                          WELCOME EVERYONE                                         #
+#   Welcome to Bibioteca! You can find as many book as you want in our Library!     #
+#           Hope you will give us your sincere advice to help us improved           #
+#                               Enjoy yourself!!!                                   #
+#####################################################################################
+*************************************************************************
+ you can select list functions as you like
+  just type the number on each line to make select
+   ("exit" for exit system.)
+-------------------------------------------------------------
+1.view all the books
+------------------------
+2.reserve a book
+------------------------
+3.check my infomations
+
+please input the number:
+1
+All Books Infomation:
+------------------------------
+book  1 edition  author  publisher
+2
+TO BE ADDED
+3
+TO BE ADDED
+exit
+user:Biblioteca$ 
