@@ -48,3 +48,125 @@ TO BE ADDED
 TO BE ADDED
 exit
 user:Biblioteca$ 
+
+===========================================================
+Update at 2012-09-20
+
+Add functionality for reserve book for default user:
+you can input book name and see success message for reserved OK.
+
+When book doesn't existed, you can see error message and reinput command again.
+
+Currently, you may always type the command number to rerun the functionality. That will be fixed in a while.
+
+Eg:
+ please input the number:
+ 1
+All Books Infomation:
+
+C++ primer	4	Stanley B Lippman	publisherA
+
+JAVA	1	Author1	publisherB
+
+Ruby	2	SomeOne	publisherC
+
+Python	3	anonymous	publisherD
+
+2
+Please Input Book Name:
+JAVA
+Reserve Ok!!
+2
+Please Input Book Name:
+java
+Book not existed!! Please choose another book...
+3
+TO BE ADDED
+exit please input the number:
+1
+Bibloteca For TWU homework
+====================================================================================================
+Half finished
+
+=====================================================================================================
+you can download the whole repo, enetr the root directory, then run the commadn below to run apps:
+
+java -cp out/production/Biblioteca/ Biblioteca   (you can just copy that and run it in the root directory)
+
+======================================================================================================
+
+right now, you can only input several command by the output instruction.
+
+That homework is still working in progress.
+
+
+
+
+
+EXAMPLES FOR ALL OUTPUT BY NOW(2012-9-17 19:00)
+-------------------------------------------------------------
+user:Biblioteca$ java -cp out/production/Biblioteca/ Biblioteca
+#####################################################################################
+#                          WELCOME EVERYONE                                         #
+#   Welcome to Bibioteca! You can find as many book as you want in our Library!     #
+#           Hope you will give us your sincere advice to help us improved           #
+#                               Enjoy yourself!!!                                   #
+#####################################################################################
+*************************************************************************
+ you can select list functions as you like
+  just type the number on each line to make select
+   ("exit" for exit system.)
+-------------------------------------------------------------
+1.view all the books
+------------------------
+2.reserve a book
+------------------------
+3.check my infomations
+
+please input the number:
+1
+All Books Infomation:
+------------------------------
+book  1 edition  author  publisher
+2
+TO BE ADDED
+3
+TO BE ADDED
+exit
+user:Biblioteca$ 
+
+===========================================================
+Update at 2012-09-20
+
+Add functionality for reserve book for default user:
+you can input book name and see success message for reserved OK.
+
+When book doesn't existed, you can see error message and reinput command again.
+
+Currently, you may always type the command number to rerun the functionality. That will be fixed in a while.
+
+Eg:
+ please input the number:
+ 1
+All Books Infomation:
+
+C++ primer	4	Stanley B Lippman	publisherA
+
+JAVA	1	Author1	publisherB
+
+Ruby	2	SomeOne	publisherC
+
+Python	3	anonymous	publisherD
+
+2
+Please Input Book Name:
+JAVA
+Reserve Ok!!
+2
+Please Input Book Name:
+java
+Book not existed!! Please choose another book...
+3
+TO BE ADDED
+exit please input the number:
+1

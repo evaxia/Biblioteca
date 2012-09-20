@@ -57,7 +57,6 @@ public class Library {
     }
 
     public StockedBook findBookByName(String bookName) {
-
         for (StockedBook book : collections) {
             if (book.getBookName().equals(bookName)) {
                 return book;
@@ -66,24 +65,7 @@ public class Library {
         return null;
     }
 
-    public boolean isBookInLibrary(StockedBook stockedBook) {
-        for (StockedBook collection : collections) {
-            if(isTwoBookSame(collection, stockedBook)) {
-                return true;
-            }
-        }
-        return false;
-    }
-
     public List<StockedBook> getCollections() {
         return collections;
-    }
-
-    private boolean isTwoBookSame(StockedBook book1, StockedBook book2) {
-        if (book1.getBookName().equals(book2.getBookName()) && book1.getAuthorName().equals(book2.getAuthorName())
-                && book1.getPublisher().equals(book2.getPublisher()) && book1.getVersion() == book2.getVersion()) {
-            return true;
-        }
-        return false;
     }
 }

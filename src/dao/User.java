@@ -34,5 +34,6 @@ public class User {
         reservedBookList.add(book);
         book.setCheckedStatus(true);
         book.setReserver(this);
+        System.out.println("Reserve Ok!!");
     }
 }

@@ -33,10 +33,11 @@ public class LibraryService {
 
     public void reserveBookForUser(StockedBook book) throws IOException {
         User user = new User("user", "1000");
-        if (library.isBookInLibrary(book)) {
-            user.addReservedBook(book);
+        if(book == null) {
+            System.out.println("Book not existed!! Please choose another book...");
+            return;
         }
-
+        user.addReservedBook(book);
     }
 
     protected StockedBook getBookToBeReserved() throws IOException {
