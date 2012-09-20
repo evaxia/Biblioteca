@@ -48,4 +48,8 @@ public class StockedBook {
     public User getReserver() {
         return reserver;
     }
+
+    public void printBookInfo() {
+        System.out.println(bookName + "\t" + version + "\t" + authorName + "\t" + publisher+ "\n");
+    }
 }

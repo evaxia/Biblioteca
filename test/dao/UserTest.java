@@ -22,4 +22,14 @@ public class UserTest {
 
         assertThat(out, is("Please talk to Librarian. Thank you."));
     }
+
+    @Test
+    public void should_get_reserved_book_list_for_user() {
+        User user = new User("user", "1000");
+        StockedBook book = new StockedBook("book", 1, "author", "publisher");
+        user.addReservedBook(book);
+
+        assertThat(user.getReservedBookList().contains(book), is(true));
+        assertThat(book.getReserver(), is(user));
+    }
 }

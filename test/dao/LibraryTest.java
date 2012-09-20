@@ -30,7 +30,7 @@ public class LibraryTest {
 
         Integer index = library.searchBook(stockedBook);
 
-        assertThat(index, is(0));
+        assertThat(index, is(4));
     }
 
     @Test

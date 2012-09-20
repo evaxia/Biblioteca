@@ -13,8 +13,11 @@ public class Biblioteca {
         FileParser.fileParser(welcome);
         FileParser.fileParser(listmenu);
 
+        getInput(new InputStreamReader(System.in));
+    }
+
+    public static void getInput(InputStreamReader inputStreamReader) throws IOException {
         String input = null;
-        InputStreamReader inputStreamReader = new InputStreamReader(System.in);
         BufferedReader bufferedReader = new BufferedReader(inputStreamReader);
         LibraryService libraryService = new LibraryService();
 

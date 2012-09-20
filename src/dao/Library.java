@@ -8,10 +8,18 @@ public class Library {
 
     public Library() {
         collections = new ArrayList<StockedBook>();
+        collections.add(new StockedBook("C++ primer", 4, "Stanley B Lippman", "publisherA"));
+        collections.add(new StockedBook("JAVA", 1, "Author1", "publisherB"));
+        collections.add(new StockedBook("Ruby", 2, "SomeOne", "publisherC"));
+        collections.add(new StockedBook("Python", 3, "anonymous", "publisherD"));
     }
 
     public void showAllCollectionBooks() {
-        System.out.println("All Books Infomation:\n------------------------------\nbook  1 edition  author  publisher");
+        System.out.println("All Books Infomation:");
+        System.out.println("--------------------------------------------------------------------");
+        for (StockedBook book : collections) {
+            book.printBookInfo();
+        }
     }
 
     public void addBook(StockedBook stockedBook, User user) {
@@ -46,5 +54,36 @@ public class Library {
 
     public User getBookReserver(StockedBook book) {
         return book.getReserver();
+    }
+
+    public StockedBook findBookByName(String bookName) {
+
+        for (StockedBook book : collections) {
+            if (book.getBookName().equals(bookName)) {
+                return book;
+            }
+        }
+        return null;
+    }
+
+    public boolean isBookInLibrary(StockedBook stockedBook) {
+        for (StockedBook collection : collections) {
+            if(isTwoBookSame(collection, stockedBook)) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    public List<StockedBook> getCollections() {
+        return collections;
+    }
+
+    private boolean isTwoBookSame(StockedBook book1, StockedBook book2) {
+        if (book1.getBookName().equals(book2.getBookName()) && book1.getAuthorName().equals(book2.getAuthorName())
+                && book1.getPublisher().equals(book2.getPublisher()) && book1.getVersion() == book2.getVersion()) {
+            return true;
+        }
+        return false;
     }
 }
