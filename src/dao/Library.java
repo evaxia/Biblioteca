@@ -20,6 +20,7 @@ public class Library {
         for (StockedBook book : collections) {
             book.printBookInfo();
         }
+        System.out.println("--------------------------------------------------------------------");
     }
 
     public void addBook(StockedBook stockedBook, User user) {

@@ -30,6 +30,7 @@ public class LibraryService {
                 System.out.println("Select a valid option!!");
                 break;
         }
+        System.out.println("please input command number:");
     }
 
     public void reserveBookForUser(StockedBook book) throws IOException {
