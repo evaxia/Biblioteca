@@ -34,6 +34,14 @@ public class User {
         reservedBookList.add(book);
         book.setCheckedStatus(true);
         book.setReserver(this);
-        System.out.println("Reserve Ok!!");
+        System.out.println("Thank You! Enjoy the book.");
+    }
+
+    public void showAllUserBooks() {
+        System.out.println("All books reserved for User " +userName);
+        System.out.println("----------------------------------------------------");
+        for (StockedBook book : reservedBookList) {
+            book.printBookInfo();
+        }
     }
 }

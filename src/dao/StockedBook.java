@@ -50,6 +50,6 @@ public class StockedBook {
     }
 
     public void printBookInfo() {
-        System.out.println(bookName + "\t" + version + "\t" + authorName + "\t" + publisher+ "\n");
+        System.out.println(bookName + "\t" + version + "\t" + authorName + "\t" + publisher);
     }
 }

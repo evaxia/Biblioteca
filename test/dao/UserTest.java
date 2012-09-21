@@ -2,6 +2,8 @@ package dao;
 
 import org.junit.Test;
 
+import java.awt.print.Book;
+
 import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;
 
@@ -31,5 +33,15 @@ public class UserTest {
 
         assertThat(user.getReservedBookList().contains(book), is(true));
         assertThat(book.getReserver(), is(user));
+    }
+
+    @Test
+    public void should_display_user_reserved_book_list() {
+        User user = new User("user", "1000");
+
+        user.addReservedBook(new StockedBook("book1", 1 , "author1", "publisher1"));
+        user.addReservedBook(new StockedBook("book2", 2 , "author2", "publisher2"));
+
+        user.showAllUserBooks();
     }
 }

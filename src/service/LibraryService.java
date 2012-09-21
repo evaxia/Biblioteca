@@ -24,9 +24,10 @@ public class LibraryService {
                 reserveBookForUser(getBookToBeReserved());
                 break;
             case 3:
-                System.out.println("TO BE ADDED");
+                System.out.println("Please talk to Librarian. Thank you.");
                 break;
             default:
+                System.out.println("Select a valid option!!");
                 break;
         }
     }
@@ -34,7 +35,7 @@ public class LibraryService {
     public void reserveBookForUser(StockedBook book) throws IOException {
         User user = new User("user", "1000");
         if(book == null) {
-            System.out.println("Book not existed!! Please choose another book...");
+            System.out.println("Sorry we don't have that book yet.");
             return;
         }
         user.addReservedBook(book);
@@ -46,6 +47,4 @@ public class LibraryService {
         BufferedReader bufferedReader = new BufferedReader(inputStreamReader);
         return library.findBookByName(bufferedReader.readLine());
     }
-
-
 }
