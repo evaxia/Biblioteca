@@ -1,6 +1,4 @@
 Bibloteca For TWU homework
-====================================================================================================
-Half finished
 
 =====================================================================================================
 you can download the whole repo, enetr the root directory, then run the commadn below to run apps:
@@ -13,43 +11,79 @@ right now, you can only input several command by the output instruction.
 
 That homework is still working in progress.
 
+====================================================================
+update at 2012-9-22
 
+Add login fucntionality in library.
+Now I currently hard code four users in system,you can use the 
+following name to login:
+eva, nikita, blair, damon, penny and password are "user" for all.
 
+Once you have logged in, you don't need to type name and password again.
+command 3 can list all the books reserved for user.
 
-
-EXAMPLES FOR ALL OUTPUT BY NOW(2012-9-17 19:00)
--------------------------------------------------------------
-user:Biblioteca$ java -cp out/production/Biblioteca/ Biblioteca
-#####################################################################################
-#                          WELCOME EVERYONE                                         #
-#   Welcome to Bibioteca! You can find as many book as you want in our Library!     #
-#           Hope you will give us your sincere advice to help us improved           #
-#                               Enjoy yourself!!!                                   #
-#####################################################################################
-*************************************************************************
- you can select list functions as you like
-  just type the number on each line to make select
-   ("exit" for exit system.)
--------------------------------------------------------------
-1.view all the books
-------------------------
-2.reserve a book
-------------------------
-3.check my infomations
-
+you may test whatever you like~
+Example:
+=====================================================================
 please input the number:
+2
+Please log in first!!
+please input your name:
+eva
+please input your password:
+user
+Please Input Book Name:
+JAVA
+Thank You! Enjoy the book.
+please input command number:
+3
+All book reserved for you:
+JAVA	1	Author1	publisherB
+-----------------------------------------------
+please input command number:
+please input the command number:
+3
+Please log in first!!
+please input your name:
+eva
+please input your password:
+user
+You have no book reserved.you may input 2 command to reserve new book!
+--------------------------------------------------------------------------
+
+
+
+
+
+====================================================================
+update at 2012-9-21
+
+Pay attention:
+everytime you would like to reserve a book, you should type "2" for 
+reserve book command.Read the hint carefully~~
+=====================================================================
+ please input the number:
 1
 All Books Infomation:
-------------------------------
-book  1 edition  author  publisher
+--------------------------------------------------------------------
+C++ primer	4	Stanley B Lippman	publisherA
+JAVA	1	Author1	publisherB
+Ruby	2	SomeOne	publisherC
+Python	3	anonymous	publisherD
 2
-TO BE ADDED
+Please Input Book Name:
+JAVA
+Thank You! Enjoy the book.
+2
+Please Input Book Name:
+java
+Sorry we don't have that book yet.
 3
-TO BE ADDED
+Please talk to Librarian. Thank you.
+4
+Select a valid option!!
 exit
-user:Biblioteca$ 
-
-
+-----------------------------------------------------------------------
 
 ===========================================================
 Update at 2012-09-20
@@ -90,32 +124,40 @@ Book not existed!! Please choose another book...
 TO BE ADDED
 exit 
 
-====================================================================
-update at 2012-9-21
 
-Pay attention:
-everytime you would like to reserve a book, you should type "2" for 
-reserve book command.Read the hint carefully~~
-=====================================================================
- please input the number:
+
+
+EXAMPLES FOR ALL OUTPUT BY NOW(2012-9-17 19:00)
+-------------------------------------------------------------
+user:Biblioteca$ java -cp out/production/Biblioteca/ Biblioteca
+#####################################################################################
+#                          WELCOME EVERYONE                                         #
+#   Welcome to Bibioteca! You can find as many book as you want in our Library!     #
+#           Hope you will give us your sincere advice to help us improved           #
+#                               Enjoy yourself!!!                                   #
+#####################################################################################
+*************************************************************************
+ you can select list functions as you like
+  just type the number on each line to make select
+   ("exit" for exit system.)
+-------------------------------------------------------------
+1.view all the books
+------------------------
+2.reserve a book
+------------------------
+3.check my infomations
+
+please input the number:
 1
 All Books Infomation:
---------------------------------------------------------------------
-C++ primer	4	Stanley B Lippman	publisherA
-JAVA	1	Author1	publisherB
-Ruby	2	SomeOne	publisherC
-Python	3	anonymous	publisherD
+------------------------------
+book  1 edition  author  publisher
 2
-Please Input Book Name:
-JAVA
-Thank You! Enjoy the book.
-2
-Please Input Book Name:
-java
-Sorry we don't have that book yet.
+TO BE ADDED
 3
-Please talk to Librarian. Thank you.
-4
-Select a valid option!!
+TO BE ADDED
 exit
------------------------------------------------------------------------
+user:Biblioteca$ 
+
+
+

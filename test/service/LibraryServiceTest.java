@@ -2,6 +2,7 @@ package service;
 
 import dao.Library;
 import dao.StockedBook;
+import dao.User;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -29,10 +30,30 @@ public class LibraryServiceTest {
         LibraryService libraryService = new LibraryService();
 
         StockedBook book = library.getCollections().get(0);
-        libraryService.reserveBookForUser(book);
+        libraryService.reserveBookForUser();
 
         assertThat(book.getCheckedStatus(), is(true));
         assertThat(book.getReserver().getName(), is("user"));
     }
 
+    @Test
+    public void should_verify_user_when_reserve_book() {
+        User user = new User("userA", "1000");
+        LibraryService libraryService = new LibraryService();
+
+        libraryService.addUser(user);
+        boolean isValid = libraryService.isRegisteredUser(user);
+
+        assertThat(isValid, is(true));
+    }
+
+    @Test
+    public void should_return_false_when_user_not_existed() {
+        User user = new User("user", "1000900");
+        LibraryService libraryService = new LibraryService();
+
+        boolean isValid = libraryService.isRegisteredUser(user);
+
+        assertThat(isValid, is(false));
+    }
 }

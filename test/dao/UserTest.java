@@ -2,8 +2,6 @@ package dao;
 
 import org.junit.Test;
 
-import java.awt.print.Book;
-
 import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;
 
@@ -13,17 +11,18 @@ public class UserTest {
         User user = new User("user", "10000");
 
         assertThat(user.getName(), is("user"));
-        assertThat(user.getUserIdentity(), is("10000"));
+        assertThat(user.getPassword(), is("10000"));
+        assertThat(user.getLoggedInStatus(), is(false));
     }
 
-    @Test
-    public void should_get_message_when_display_all_ueser_collection() {
-        User user = new User("user", "10000");
-
-        String out = user.displayDetails();
-
-        assertThat(out, is("Please talk to Librarian. Thank you."));
-    }
+//    @Test
+//    public void should_get_message_when_display_all_ueser_collection() {
+//        User user = new User("user", "10000");
+//
+//        String out = user.displayDetails();
+//
+//        assertThat(out, is("Please talk to Librarian. Thank you."));
+//    }
 
     @Test
     public void should_get_reserved_book_list_for_user() {

@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a308d913-aaa9-4de2-bba4-9d73c2052e48" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dao/Library.java" afterPath="$PROJECT_DIR$/src/dao/Library.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/service/LibraryService.java" afterPath="$PROJECT_DIR$/src/service/LibraryService.java" />
-    </list>
+    <list default="true" id="a308d913-aaa9-4de2-bba4-9d73c2052e48" name="Default" comment="" />
     <ignored path="Biblioteca.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -70,7 +67,7 @@
       <file leaf-file-name="LibraryService.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/service/LibraryService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="46" selection-start="1050" selection-end="1050" vertical-scroll-proportion="0.6637168">
+            <state line="34" column="4" selection-start="911" selection-end="911" vertical-scroll-proportion="0.50211865">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -78,10 +75,19 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="listMenu" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/textfile/listMenu">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="26" selection-start="400" selection-end="400" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Library.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/dao/Library.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="46" selection-start="1206" selection-end="1206" vertical-scroll-proportion="0.0">
+            <state line="61" column="27" selection-start="2120" selection-end="2120" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -90,7 +96,7 @@
       <file leaf-file-name="User.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/dao/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="25" selection-start="903" selection-end="903" vertical-scroll-proportion="0.0">
+            <state line="28" column="63" selection-start="842" selection-end="842" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -99,7 +105,7 @@
       <file leaf-file-name="Biblioteca.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Biblioteca.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="33" selection-start="844" selection-end="844" vertical-scroll-proportion="0.0">
+            <state line="24" column="35" selection-start="846" selection-end="846" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -108,7 +114,7 @@
       <file leaf-file-name="StockedBook.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/dao/StockedBook.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="91" selection-start="1184" selection-end="1184" vertical-scroll-proportion="0.0">
+            <state line="37" column="43" selection-start="830" selection-end="830" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -117,7 +123,7 @@
       <file leaf-file-name="UserTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/dao/UserTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="22" selection-start="1218" selection-end="1218" vertical-scroll-proportion="0.0">
+            <state line="24" column="7" selection-start="412" selection-end="673" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -135,16 +141,7 @@
       <file leaf-file-name="LibraryServiceTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/service/LibraryServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="33" selection-start="734" selection-end="734" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FileParserTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/service/FileParserTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="28" selection-start="272" selection-end="272" vertical-scroll-proportion="0.0">
+            <state line="20" column="0" selection-start="381" selection-end="381" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -174,7 +171,6 @@
       <list>
         <option value="$PROJECT_DIR$/test/service/FileReaderParserTest.java" />
         <option value="$PROJECT_DIR$/src/service/FileParser.java" />
-        <option value="$PROJECT_DIR$/textfile/listMenu" />
         <option value="$PROJECT_DIR$/test/service/FileParserTest.java" />
         <option value="$PROJECT_DIR$/src/Biblioteca.java" />
         <option value="$PROJECT_DIR$/test/BibliotecaTest.java" />
@@ -182,12 +178,13 @@
         <option value="$PROJECT_DIR$/test/service/UserService.java" />
         <option value="$PROJECT_DIR$/test/service/UserServiceTest.java" />
         <option value="$PROJECT_DIR$/src/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/dao/StockedBook.java" />
+        <option value="$PROJECT_DIR$/src/dao/Library.java" />
         <option value="$PROJECT_DIR$/test/service/LibraryServiceTest.java" />
         <option value="$PROJECT_DIR$/test/dao/UserTest.java" />
-        <option value="$PROJECT_DIR$/src/dao/StockedBook.java" />
         <option value="$PROJECT_DIR$/src/dao/User.java" />
-        <option value="$PROJECT_DIR$/src/dao/Library.java" />
         <option value="$PROJECT_DIR$/src/service/LibraryService.java" />
+        <option value="$PROJECT_DIR$/textfile/listMenu" />
       </list>
     </option>
   </component>
@@ -469,12 +466,12 @@
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="false" />
-    <property name="MemberChooser.showClasses" value="true" />
     <property name="FullScreen" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="dynamic.classpath" value="false" />
     <property name="options.searchVisible" value="true" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -492,36 +489,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.Biblioteca">
-    <configuration default="false" name="LibraryTest" type="JUnit" factoryName="JUnit" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="Biblioteca" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="dao" />
-      <option name="MAIN_CLASS_NAME" value="dao.LibraryTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Cover" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Cover" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
     <configuration default="false" name="Biblioteca" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="Biblioteca" />
@@ -626,6 +593,34 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
+    <configuration default="false" name="LibraryServiceTest.should_return_false_when_user_not_existed" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Biblioteca" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="service" />
+      <option name="MAIN_CLASS_NAME" value="service.LibraryServiceTest" />
+      <option name="METHOD_NAME" value="should_return_false_when_user_not_existed" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -711,11 +706,11 @@
       </method>
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.LibraryTest" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Biblioteca" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.All in Biblioteca" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.LibraryServiceTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.UserTest" />
+      <item index="0" class="java.lang.String" itemvalue="Application.Biblioteca" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.All in Biblioteca" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.LibraryServiceTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.UserTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.LibraryServiceTest.should_return_false_when_user_not_existed" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -757,7 +752,7 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32947233" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32947233" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23938224" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -770,8 +765,8 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18175288" sideWeight="0.7902188" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20978121" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18175288" sideWeight="0.6705277" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3101673" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16666667" sideWeight="0.74903476" order="3" side_tool="true" content_ui="tabs" />
@@ -882,11 +877,6 @@
         <state line="7" column="13" selection-start="134" selection-end="134" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/textfile/listMenu">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="24" selection-start="400" selection-end="400" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/dao/LibraryTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="45" column="23" selection-start="1113" selection-end="1113" vertical-scroll-proportion="0.0" />
@@ -894,30 +884,12 @@
     </entry>
     <entry file="file://$USER_HOME$/Downloads/CodeSmells.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="247" column="43" selection-start="6328" selection-end="6328" vertical-scroll-proportion="-1.0">
-          <folding />
-        </state>
+        <state line="247" column="43" selection-start="6328" selection-end="6328" vertical-scroll-proportion="-1.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/dao/StockedBookTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="25" selection-start="559" selection-end="559" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/BibliotecaTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="13" selection-start="66" selection-end="66" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/service/LibraryServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="33" selection-start="734" selection-end="734" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="17" column="25" selection-start="559" selection-end="559" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/service/FileParserTest.java">
@@ -927,49 +899,66 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/service/FileParser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="13" selection-start="118" selection-end="118" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/dao/UserTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="22" selection-start="1218" selection-end="1218" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="6" column="13" selection-start="118" selection-end="118" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/dao/StockedBook.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="91" selection-start="1184" selection-end="1184" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Biblioteca.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="33" selection-start="844" selection-end="844" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dao/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="25" selection-start="903" selection-end="903" vertical-scroll-proportion="0.0">
+        <state line="37" column="43" selection-start="830" selection-end="830" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/dao/Library.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="46" selection-start="1206" selection-end="1206" vertical-scroll-proportion="0.0">
+        <state line="61" column="27" selection-start="2120" selection-end="2120" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/dao/UserTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="7" selection-start="412" selection-end="673" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/BibliotecaTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="13" selection-start="66" selection-end="66" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dao/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="63" selection-start="842" selection-end="842" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/service/LibraryServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="0" selection-start="381" selection-end="381" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Biblioteca.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="35" selection-start="846" selection-end="846" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/textfile/listMenu">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="26" selection-start="400" selection-end="400" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/service/LibraryService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="46" selection-start="1050" selection-end="1050" vertical-scroll-proportion="0.6637168">
+        <state line="34" column="4" selection-start="911" selection-end="911" vertical-scroll-proportion="0.50211865">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

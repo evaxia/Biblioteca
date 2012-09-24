@@ -5,12 +5,14 @@ import java.util.List;
 
 public class User {
     private String userName;
-    private String userIdentity;
     private List<StockedBook> reservedBookList;
+    private String password;
+    private Boolean loggedInStatus;
 
-    public User(String userName, String userIdentity) {
+    public User(String userName, String password) {
         this.userName = userName;
-        this.userIdentity = userIdentity;
+        this.password = password;
+        this.loggedInStatus = false;
         reservedBookList = new ArrayList<StockedBook>();
     }
 
@@ -18,12 +20,16 @@ public class User {
         return userName;
     }
 
-    public String getUserIdentity() {
-        return userIdentity;
-    }
-
-    public String displayDetails() {
-        return "Please talk to Librarian. Thank you.";
+    public void displayDetails() {
+        if(reservedBookList.size() == 0 ){
+            System.out.println("You have no book reserved.you may input 2 command to reserve new book!");
+            return;
+        }
+        System.out.println("All book reserved for you:");
+        for (StockedBook stockedBook : reservedBookList) {
+            stockedBook.printBookInfo();
+        }
+        System.out.println("-----------------------------------------------");
     }
 
     public List<StockedBook> getReservedBookList() {
@@ -43,5 +49,17 @@ public class User {
         for (StockedBook book : reservedBookList) {
             book.printBookInfo();
         }
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public Boolean getLoggedInStatus() {
+        return loggedInStatus;
+    }
+
+    public void setLoggedInStatus(Boolean loggedInStatus) {
+        this.loggedInStatus = loggedInStatus;
     }
 }
